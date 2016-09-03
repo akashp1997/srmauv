@@ -54,7 +54,7 @@ def render(x):
         buoy_co = numpy.uint16(numpy.around(buoy_co))
         cv2.destroyAllWindows()
         #center stored to buoy_co variable globally
-        draw()
+        #draw()
         return None
     cv2.destroyWindow('Render')
     cv2.namedWindow('Render')
